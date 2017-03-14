@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+html, html * {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.info-post {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.avatar-48 {
+  height: 48px;
+  width: 48px;
+}
+.circle-48 {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.endpoint {
+  display: inline-block;
+  color: var(--yt-endpoint-color, hsl(0, 0%, 6.7%));
+}
+
+.margin-right-15 {
+  margin-right: 15px;
+}
+
+.owner-post {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-owner-post{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name-owner-post {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+.owner-post a:hover {
+  text-decoration: none;
+}
+
+.time-owner-post {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
